@@ -1,10 +1,10 @@
 class HomeScreen {
-    get #enterStoreAddress() {
-        return $('id:button_get_started');
+    get enterStoreAddress() {
+        return $('id:button_login_store');
     }
     
     async goToLogin() {
-        this.#enterStoreAddress.click();
+        this.enterStoreAddress.click();
     }
 }
 
