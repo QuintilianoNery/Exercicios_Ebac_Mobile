@@ -7,7 +7,7 @@
 ### Instalação do VScode e extensões sugeridas
 * [Download Vscode](https://code.visualstudio.com/download)
 * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-* [Robot Framework Intellisense](https://marketplace.visualstudio.com/items?itemName=TomiTurtiainen.rf-intellisense)
+* [WebdriverIO](https://webdriver.io/)
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 ### Instalação versão full cmder
@@ -143,12 +143,4 @@ adb devices -l
   "udid": "ID DO SEU TELEFONE AQUI",
   "noReset": true
 }
-```
-
-### Executar testes no Robot
-
-```
- * robot -d ./logs ./tests/*.robot
- * robot -d ./logs -i TAG  ./tests
- * robot -d ./logs  -v BOT:NOME_BOT -i TAG_AQUI  ./tests
 ```

@@ -26,7 +26,5 @@ describe('Acessar painel de Administrador', () => {
 
         await $('android.widget.ScrollView').scrollIntoView();
         await$('btn_option_logout').click();
-
-
     });
 });
